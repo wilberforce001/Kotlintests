@@ -26,4 +26,18 @@ fun main() {
         check = !check
         println("Value of check after inversion is : $check")
     }
+
+
+    //Using when as a statement with else
+        print ("Enter the name of heavenly body: ")
+        var name = readLine() !!. toString()
+
+        when(name) {
+            "Sun" -> print("Sun is a Star")
+            "Moon" -> print("Moon is a Satellite")
+            "Earth" -> print("Earth is a planet")
+            else -> print("I don't know anything about it")
+        }
+
 }
+
