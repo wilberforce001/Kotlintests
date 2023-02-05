@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_name"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/design_default_color_error"
+        android:autofillHints="CP307" />
+
+    <EditText
+        android:id="@+id/et_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_course"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/design_default_color_error"
+        android:autofillHints="EBU" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/submit_your_name"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textColorHint="@color/material_dynamic_neutral_variant10"
+        android:autofillHints="cp mobile" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/submit_your_course"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:textColorHint="@color/material_dynamic_neutral10"
+        android:autofillHints="Mobile App Development" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/submit" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/graduation_image"
+        android:layout_gravity="center"
+        android:src="@drawable/img"/>
+
+</LinearLayout>

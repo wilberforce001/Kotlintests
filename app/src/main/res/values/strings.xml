@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GraduationApp</string>
+    <string name="submit">Submit</string>
+    <string name="enter_course">Enter course</string>
+    <string name="submit_your_name">Submit your name</string>
+    <string name="submit_your_course">Submit your course</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="graduation_image">Graduation Image</string>
+</resources>
